@@ -1,8 +1,6 @@
 "use client";
 
-import Button from "@mui/material/Button";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import { Button, Grid, Stack } from "@mui/material";
 
 export default function Home() {
 	return (
