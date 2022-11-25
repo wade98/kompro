@@ -3,10 +3,15 @@ module.exports = {
 	corePlugins: {
 		preflight: false,
 	},
-	content: ["./app/**/*.{js,ts,jsx,tsx}"],
+	content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
 	important: '#__next',
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {
+				'blackwatch': "url('../public/blackwatch.webp')",
+				'whitewatch': "url('../public/whitewatch.webp')",
+			}
+		},
 	},
 	plugins: [],
 };
