@@ -23,14 +23,14 @@ font-size: 1.5rem;
 export default function Nav() {
 
 	return (
-		<Grid container className='hover:dark:bg-white group p-7'>
+		<Grid container className='hover:bg-black dark:hover:bg-white group p-7'>
 			<Grid xs display='flex'>
-				<Button className="dark:text-white dark:group-hover:text-black justify-self-start">
+				<Button className="text-black dark:text-white group-hover:text-white dark:group-hover:text-black justify-self-start">
 					<span className="material-symbols-outlined">home</span>
 				</Button>
 			</Grid>
 			<Grid xs={8} display='flex' justifyContent='center'>
-				<Button className="dark:text-white dark:group-hover:text-black">
+				<Button className="text-black dark:text-white group-hover:text-white dark:group-hover:text-black justify-self-start">
 					<div className='content-center flex'>
 						<div className="material-symbols-outlined pt-0.5">
 							watch
@@ -40,7 +40,7 @@ export default function Nav() {
 				</Button>
 			</Grid>
 			<Grid xs display='flex' justifyContent='flex-end'>
-				<Button className="dark:text-white dark:group-hover:text-black">
+				<Button className="text-black dark:text-white group-hover:text-white dark:group-hover:text-black justify-self-start">
 					<span className="material-symbols-outlined">
 						shopping_cart
 					</span>
